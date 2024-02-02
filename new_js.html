@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Ques.- write a program to product of first n numbers.
+
+        let n=10;
+        for (let i=1; i<=n;i++)
+        {
+           document.write(i*n +'<br>');
+        }
+
+        // Ques - find the mean of 4 numbers
+
+        const mean=(a,b,c,d)=>
+        {
+            return (a+b+c+d)/4
+        }
+        console.log(mean(4,5,6,7))
+
+        //Ques - output - ['Ram', 'Shyam', 'Seeta', 'Geeta']
+
+        // const names = ["ram", "shyam", "seeta", "geeta"];
+
+        // for (i=0; i<names.length; i++)
+        // {
+        //     const namearray = names[i].split('');
+        //     // console.log(namearray)
+        //     const firstlettercapital = namearray[0].toUpperCase()
+        //     // console.log(firstlettercapital)
+        //     namearray.shift()
+        //     namearray.unshift(firstlettercapital)
+        //     names[i]=namearray.join('')
+            
+        // }
+        // console.log(names)
+
+
+
+
+        // Ques - output - [ateeS, mayhS, maR]
+        const names = ["ram", "shyam", "seeta", "geeta"];
+     
+        for (let i =0; i<names.length; i++)
+        {
+            const reversearray = names.pop('')
+            // console.log(reversearray)
+            const reversename = names.unshift(reversearray)
+            // console.log(reversename)
+        }
+
+
+        
+    </script>
+</body>
+</html>
